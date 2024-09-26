@@ -1,17 +1,20 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-myyield-dev-bbd32-authRole",
-      "UnauthRoleArn": "arn:aws:iam::302263064091:role/amplify-myyield-dev-bbd32-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::302263064091:role/amplify-myyield-dev-bbd32-authRole",
+      "AuthRoleName": "amplify-myyield-dev-3a868-authRole",
+      "UnauthRoleArn": "arn:aws:iam::302263064091:role/amplify-myyield-dev-3a868-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::302263064091:role/amplify-myyield-dev-3a868-authRole",
       "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-myyield-dev-bbd32-deployment",
-      "UnauthRoleName": "amplify-myyield-dev-bbd32-unauthRole",
-      "StackName": "amplify-myyield-dev-bbd32",
-      "StackId": "arn:aws:cloudformation:us-east-1:302263064091:stack/amplify-myyield-dev-bbd32/31234b80-7bd2-11ef-b6bb-1284afc1a5cf",
-      "AmplifyAppId": "d2yfpokg6h4m3a"
+      "DeploymentBucketName": "amplify-myyield-dev-3a868-deployment",
+      "UnauthRoleName": "amplify-myyield-dev-3a868-unauthRole",
+      "StackName": "amplify-myyield-dev-3a868",
+      "StackId": "arn:aws:cloudformation:us-east-1:302263064091:stack/amplify-myyield-dev-3a868/2c4bc310-7be3-11ef-aa94-12aa14c2bfa3",
+      "AmplifyAppId": "d1dj6sohhznznx"
     },
     "categories": {
+      "auth": {
+        "myyield65d7de3b": {}
+      },
       "api": {
         "myyield": {}
       }

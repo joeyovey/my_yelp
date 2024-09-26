@@ -6,12 +6,7 @@ import './App.css';
 import { Amplify } from 'aws-amplify';
 import awsmobile from './aws-exports';
 import { generateClient } from 'aws-amplify/api';
-import {
-  withAuthenticator,
-  View,
-  Heading,
-  Button,
-} from '@aws-amplify/ui-react';
+import { withAuthenticator, View, Heading, Button} from '@aws-amplify/ui-react';
 
 // import yelpLogo from './yelp-logo.png';
 
