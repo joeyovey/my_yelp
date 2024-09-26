@@ -14,6 +14,15 @@
     "categories": {
       "auth": {
         "myyield65d7de3b": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1dj6sohhznznx",
+          "type": "manual"
+        }
+      },
+      "api": {
+        "myyield": {}
       }
     }
   }
