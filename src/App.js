@@ -7,8 +7,7 @@ import { Amplify } from 'aws-amplify';
 import awsmobile from './aws-exports';
 import { generateClient } from 'aws-amplify/api';
 import { withAuthenticator, View, Heading, Button} from '@aws-amplify/ui-react';
-
-// import yelpLogo from './yelp-logo.png';
+import logo from './assets/logo.png';
 
 Amplify.configure(awsmobile);
 const client = generateClient();
@@ -58,7 +57,7 @@ function App({ signOut }) {
     <React.Fragment>
       <header className="app-header">
         {/* Replace the text heading with the Yelp logo */}
-        {/* <img src={yelpLogo} alt="Yelp Logo" className="yelp-logo" /> */}
+        <img src={logo} alt="Yelp Logo" className="yelp-logo" />
         <Button variation="primary" onClick={signOut}>
           Sign Out
         </Button>
