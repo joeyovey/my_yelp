@@ -59,7 +59,7 @@ function App({ signOut }) {
         {/* Replace the text heading with the Yelp logo */}
         <img src={logo} alt="Yelp Logo" className="yelp-logo" />
         <Button variation="primary" onClick={signOut}>
-          Sign Out
+          Log Out
         </Button>
       </header>
 
@@ -93,7 +93,7 @@ function App({ signOut }) {
               required
             />
             <Button type="submit" className="create-button">
-              Create Restaurant
+              Click here to add Restaurant
             </Button>
           </View>
         </section>

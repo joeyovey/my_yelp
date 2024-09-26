@@ -81,10 +81,12 @@ button:hover {
   background-color: #28a745;
   border-radius: 5px;
   padding: 10px 0;
+  
 }
 
 .create-button:hover {
   background-color: #218838;
+  color: #ccc;
 }
 
 /* Restaurant List Section */
