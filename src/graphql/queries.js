@@ -35,3 +35,18 @@ export const listTodos = /* GraphQL */ `
     }
   }
 `;
+
+export const listRestaurants = /* GraphQL */ `
+  query ListRestaurants {
+    listRestaurants {
+      items {
+        id
+        name
+        description
+        city
+        createdAt
+        updatedAt
+      }
+    }
+  }
+`;
