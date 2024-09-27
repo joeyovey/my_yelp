@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Welcome to My Yelp
+***
+**LIVE URL:** https://dev.d1dj6sohhznznx.amplifyapp.com
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple web application that allows users to manage a list of restaurants, including the ability to create and delete restaurant entries.
+The application uses AWS Amplify to handle authentication and GraphQL for API interactions.
 
-## Available Scripts
+## Task
+This project solves the problem of restaurant management by providing users with an intuitive interface to create, view, and delete restaurants from the system.
 
-In the project directory, you can run:
+**Challenge:** The challenge was to integrate AWS Amplify for authentication and use GraphQL queries and mutations to manage restaurant data efficiently.
 
-### `npm start`
+## Description
+This project uses AWS Amplify as the backend for authentication and data management. The app fetches a list of restaurants from a GraphQL API and displays them. 
+Users can add new restaurants by filling out a form and delete restaurants from the list. 
+The application leverages React for the frontend and AWS Amplify for state management and GraphQL API integration.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features:
+**Add Restaurant:** Users can add a restaurant with a name, description, and city.
+**List Restaurants:** Displays a table of restaurants fetched from the API.
+**Delete Restaurant:** Users can remove a restaurant from the list.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
+**Clone this repository:** (https://github.com/joeyovey/my_yielp.git)
+cd (change to your directory name: e.g, yelp_project)
+**Install the dependencies:** (npm install)
+**Start the project:** (npm start) 
 
-### `npm test`
+**Configure Amplify** (An active AWS account needed to). 
+**Create an account if you don't have one:** (https://signin.aws.amazon.com/signup?request_type=register)
+Then run the following commands:
+-- amplify init
+-- npm install -g @aws-amplify/cli
+-- amplify configure
+-- amplify add auth
+-- npm install aws-amplify @aws-amplify/ui-react
+-- npm install aws-amplify@latest
+-- amplify add api
+-- amplify add hosting
+-- amplify publish
+-- amplify push
+-- amplify status
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Usage
+**Once the app is running, you can:**
+-- Log in using Amplify’s built-in authentication (sign up if you don’t have an account).
+-- Add a restaurant by filling in the form (name, description, city).
+-- View the restaurant list which is displayed in a table format.
+-- Delete a restaurant by clicking the delete button in the table.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Technologies Us:**
+-- React: For the frontend interface.
+-- AWS Amplify: For authentication and GraphQL API.
+-- GraphQL: For managing queries and mutations.
+-- CSS: For styling the app interface.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Contributing**
+Feel free to contribute by opening issues or pull requests.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+./my_project argument1 argument2
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### The Core Team
+**Joseph Ovey Akawu**
+<span><i>Made at <a href='https://qwasar.io'>Qwasar SV -- Software Engineering School</a></i></span>
+<span><img alt='Qwasar SV -- Software Engineering School's Logo' src='https://storage.googleapis.com/qwasar-public/qwasar-logo_50x50.png' width='20px' /></span>
